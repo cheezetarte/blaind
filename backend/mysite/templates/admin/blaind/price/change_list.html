@@ -1,0 +1,55 @@
+{% extends "admin/change_list.html" %}
+{% load static %}
+
+<!-- Override extrahead to add Chart.js -->
+{% block extrahead %}
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart', 'line']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      var prices = {{ price_list | safe }}
+      var daliy_data = {{ daliy_list | safe }}
+      for(var i = 0; i < daliy_data.length; i++){
+        daliy_data[i][0] = new Date(Date.parse(daliy_data[i][0]));
+      }
+      function drawChart() {
+        var data1 = google.visualization.arrayToDataTable(prices);
+        var data2 = new google.visualization.DataTable();
+        
+        data2.addColumn('date', 'Day');
+        data2.addColumn('number', 'Basic');
+        data2.addColumn('number', 'Standard');
+        data2.addColumn('number', 'Premium');
+    
+        data2.addRows(daliy_data);
+
+        var options1 = {
+          title: '유저 비율',
+          width: 600,
+          height: 320
+        };    
+        var options2 = {
+          chart: {
+            title: '유저 그래프',
+            subtitle: '최근 2주간'
+          },
+          width: 600,
+          height: 320
+        };          
+
+        var chart1 = new google.visualization.PieChart(document.getElementById('piechart'));
+        var chart2 = new google.charts.Line(document.getElementById('linechart_material'));
+
+        chart1.draw(data1, options1); 
+        chart2.draw(data2, google.charts.Line.convertOptions(options2));       
+      }
+    </script>
+    
+{% endblock %}
+
+{% block content %}
+  <div id="piechart" style="float:left; width:50%"></div>
+  <div id="linechart_material" style="float:left; width:50%"></div>
+{{ block.super }}
+{% endblock %}

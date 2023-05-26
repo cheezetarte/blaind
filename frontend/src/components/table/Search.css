@@ -1,0 +1,28 @@
+.SearchComp {
+    text-align-last: center;
+    font-size: 5px;
+    margin-top: 30px;
+  }
+  
+  .SearchButton {
+  background-color: blue;
+  border: none;
+  font-family: 'LINESeedKR-Bd';
+  color: white;
+  padding: 2px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  padding : 14px;
+  
+  }
+  
+  .SearchText{
+    padding: 0px 15px;
+    border-radius: 8px;
+    text-align: center;
+  }

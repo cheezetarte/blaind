@@ -1,0 +1,15 @@
+.Axios_Btn{
+    color: white;
+    background-color: #E74949;
+    border-radius: 12px;
+    font-family: 'LINESeedKR-Bd';
+    font-size: larger;
+    border: none;
+    width: 160px;
+    height: 43px;
+    cursor: pointer;
+    padding-top:1%;
+  }
+
+
+  

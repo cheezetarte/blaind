@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pwd-container{
+    height: 500px;
+    text-align: center;
+}
+#pwd-header{
+    font-family: 'LINESeedKR-Bd';
+    color: whitesmoke;
+    font-size: 50px;
+}
+#pwd-info{
+    font-family: 'Pretendard-Regular';
+    color: white;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+input[type='password']{
+    width: 530px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: none;
+}

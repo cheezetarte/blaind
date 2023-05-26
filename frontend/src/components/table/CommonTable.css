@@ -1,0 +1,27 @@
+.common-table {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  border-spacing: 0;
+  color: black;
+}
+
+.common-table-header-column {
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 16px;
+  padding-top: 50px;
+  padding-bottom:12px;
+  font-weight: bold;
+  color : white;
+}
+
+.common-table-row:hover {
+  background-color: #eceaea;
+  cursor: pointer;
+  color : green;
+}
+
+.common-table-column {
+  padding: 10px 5px;
+  color : white;
+}

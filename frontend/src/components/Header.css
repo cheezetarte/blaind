@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+@font-face {
+  font-family: 'HallymGothic-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+html, body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #696969;
+  }  
+a{
+  text-decoration-line: none;
+  color: #000;
+}
+ul, ol{
+  list-style:none;
+}
+.text{
+  text-decoration-line: none;
+  color: black;
+}
+.logo_img{
+  padding: 0%;
+  width: auto; height: auto;
+  max-width: 200px;
+  flex: 1;
+}
+#navigator{
+  display: flex;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+}
+.nav{
+  flex: 1;
+  width: 300px;
+  padding-right: 20%;
+  padding-left: 3%;
+  margin-top: 1%;
+}
+.nav-list{
+  padding: 3%;
+  color: white;
+  font-family: 'LINESeedKR-Bd';
+  font-size: 23px;
+}
+.sign{
+  flex: 1;
+  margin-top:0.8%; 
+  text-align:center;
+  width:auto;
+}
+#sign-in{
+  color: white;
+  background-color: #696969;
+  font-family: 'LINESeedKR-Bd';
+  font-size: larger;
+  border: none;
+  cursor: pointer;
+}
+#sign-up{
+  color: white;
+  background-color: #E74949;
+  border-radius: 12px;
+  font-family: 'LINESeedKR-Bd';
+  font-size: larger;
+  border: none;
+  width: 160px;
+  height: 43px;
+  margin-left: 3%;
+  cursor: pointer;
+  padding-top:1%;
+}
+.menu {
+  background: #fff;
+  border-radius: 8px;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+  padding: 10px;
+}
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}

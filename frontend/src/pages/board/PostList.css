@@ -1,0 +1,13 @@
+.whole-table {
+  color: white;
+  background-color: #696969;
+  font-family: 'LINESeedKR-Bd';
+  font-size: larger;
+  border-bottom: 5;
+  border-top: 5;
+  cursor: pointer;
+}
+
+.titlecolor{
+color : white;
+}

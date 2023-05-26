@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'HallymGothic-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.login-container{
+    height: 600px;
+    text-align: center;
+}
+.user-input{
+  color:white;
+  font-family: 'Pretendard-Regular';
+  font-size: large;
+}
+#login-header{
+    font-family: 'LINESeedKR-Bd';
+    color: whitesmoke;
+    font-size: 50px;
+}
+input{
+  border:none;
+  box-shadow: none;
+}
+#id{
+  width: 358px;
+  height: 45px;
+  border-radius: 10px;
+  margin-bottom: 1.5%;
+  font-family: 'Pretendard-Regular';
+  font-size: 20px;
+  padding-left: 10px;
+  box-shadow: none;
+}
+#password{
+  width: 350px;
+  height: 45px;
+  border-radius: 10px; 
+  margin-bottom: 5px;
+  font-family: 'Pretendard-Regular';
+  font-size: 20px;
+  padding-left: 10px;
+}
+#login-submit{
+  color: white;
+  background-color: #E74949;
+  border-radius: 50px;
+  font-family: 'LINESeedKR-Bd';
+  font-size: x-large;
+  border: none;
+  width: 350px;
+  height: 50px;
+  cursor: pointer;
+  margin: 2%;
+}
+.google_login{
+  text-align: -webkit-center;
+  margin-top: auto;
+}
+
+.guitar{
+    margin-top: 3%;
+}
+
+#login-sign-up{
+  background-color: #696969;
+  color: #E74949;
+  border: none;
+  font-size: 20px;
+  font-family: 'Pretendard-Regular';
+  text-shadow:1px 1px 1px rgb(29, 29, 29);
+  cursor: pointer;
+}
+#login-check{
+  width: 18px;
+  height: 18px;
+  margin-top:10px;
+  margin-bottom: 2%;
+}
+#find-password{
+  background-color: #696969;
+  border: none;
+  color:#E74949;
+  font-family: 'Pretendard-Regular';
+  font-size: 20px;
+  text-shadow:1px 1px 1px rgb(29, 29, 29);
+  cursor: pointer;
+}
+
+#isthere{
+  margin-top: 5%;
+}

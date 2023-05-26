@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MICEGothic Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+.pricing-container{
+    width: 100%;
+    align-items:center;
+    justify-content:center;
+    display: inline-block;
+    padding-bottom: 150px;
+    padding-top: 30px;
+}
+.pricing-header{
+    display: flex;
+    font-family: 'LINESeedKR-Bd';
+    font-size: 50px;
+    color: whitesmoke; 
+    width: 100%;
+    justify-content:center;
+    height: 150px;
+}
+.pricing-explain{
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+    color: #fcfafa;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.pricing-table{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding-left: 5%;
+}
+.pricing{
+    height: 550px;
+    width: 350px;
+    margin-right: 80px;
+    border-radius: 25px;
+    display: inline-block;
+    text-align: center;
+}
+.pricing>div{
+    font-family: 'LINESeedKR-Bd';
+    color: #fcfafa;
+    font-size: 30px;
+}
+.pricing>h2{
+    font-family: 'MICEGothic Bold';
+    color: #3b3b3b;
+    font-size: 20px;
+}
+.pricing>p{
+    font-family: 'MICEGothic Bold';
+    color: white;
+    font-size: 25px;
+    padding-bottom: 15px;
+}

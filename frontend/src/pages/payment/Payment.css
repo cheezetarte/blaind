@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'HallymGothic-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'HallymGothic-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+.payment-container{
+    text-align: center;
+    color: white;
+    align-items:center;
+}
+.payment-container > p{
+    font-size: 50px;
+    font-family: 'LINESeedKR-Bd';
+}
+.pay-info{
+  color: black;
+  background-color: white;
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+  padding-top: 30px;
+  font-family: 'HallymGothic-Regular';
+  font-size: 20px;
+  margin-bottom: 60px;
+  margin-left: 40%;
+}
+.pay-kakao{
+  margin-bottom: 50px;
+}
+.pay-kakao > div{
+  color:white;
+  font-family: 'Pretendard-Regular';
+  font-size: 20px;
+}
+

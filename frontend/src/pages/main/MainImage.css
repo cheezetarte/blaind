@@ -1,0 +1,15 @@
+.image-container{
+width: 1000px;
+height: 500px;
+font-family: 'HallymGothic-Regular';
+border-style: dotted;
+border-radius: 20px;
+border-color: white;
+text-align:center;
+margin-bottom: 10%;
+}
+
+#editor-image{
+    max-width: 940px;
+  }
+  

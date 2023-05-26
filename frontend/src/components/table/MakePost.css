@@ -1,0 +1,19 @@
+.voc-header {
+  color: white;
+  background-color: blue;
+  border-radius: 12px;
+  font-family: 'LINESeedKR-Bd';
+  font-size: larger;
+  border: none;
+  width: 160px;
+  height: 43px;
+  margin-left: 3%;
+  cursor: pointer;
+  padding-top:1%;
+  }
+
+.voc-container{
+  text-align: right;
+  padding-right: 10%;
+  padding-top: 5%;
+}

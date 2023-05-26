@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'HallymGothic-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+.mypage-container{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#profile-img{
+    height: 200px;   
+}
+#profile-button{
+    color: white;
+    background-color: #E74949;
+    border-radius: 50px;
+    font-family: 'LINESeedKR-Bd';
+    font-size: small;
+    border: none;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    margin: 3%;
+}
+.mypage-container > form{
+    display: table;
+    margin-left:auto; 
+    margin-right:auto;
+}
+.info-field > label{
+    color: white;
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+    display: table-cell;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#mypage-header{
+    font-family: 'LINESeedKR-Bd';
+    color: whitesmoke;
+    font-size: 50px;
+}
+#mypage-submit{
+    color: white;
+    background-color: #E74949;
+    border-radius: 50px;
+    font-family: 'LINESeedKR-Bd';
+    font-size: x-large;
+    border: none;
+    width: 350px;
+    height: 50px;
+    cursor: pointer;
+    margin: 5%;
+}
+
+#price {
+    color: white;
+    font-family: 'LINESeedKR-Bd';
+    font-size: x-large;
+    height: 50px;
+    margin: 5%;    
+}

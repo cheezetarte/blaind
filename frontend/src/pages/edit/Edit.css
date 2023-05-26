@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'HallymGothic-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+.SHARE_BTN{
+    width: 130px;
+    height: 35px;
+    color: black;
+    background-color: white;
+    border: 5;
+    border-color: #E74949;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: 'Pretendard-Regular';
+}
+.edit-container{
+    height: 570px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-family: 'LINESeedKR-Bd';
+
+}
+.player-container{
+    height: 575px;
+    width: 900px;
+    background-color: #DBDBDB;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    margin-top: 3px;
+}
+.edit-select{
+    height: 570px;
+    margin-right: 20px;
+    
+}
+.face-container{
+    height: 400px;
+    width: 400px;
+    background-color: #DBDBDB;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-top: 1%;
+    overflow: scroll;
+}
+.face-list{
+    height: 350px;
+    font-size: 20px;
+}
+#face{
+    margin: 5px;
+}
+.blur-type{
+    height: 150px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #DBDBDB;
+}
+.detected_face{
+    height: 100px;
+}
+#blur-type{
+    width:150px;
+    height:30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#send-blurtype{
+    width:200px;
+    height:30px;
+    color: white;
+    background-color: #E74949;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Pretendard-Regular';
+}
+.share-video{
+    margin-left: 1150px;
+}
+.share-video>button{
+    width: 130px;
+    height: 35px;
+    color: black;
+    background-color: white;
+    border: 5;
+    border-color: #E74949;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: 'Pretendard-Regular';
+}
+
+.abc{
+    text-align: -webkit-right;
+    margin-right: 50px;
+    border-color: #E74949;
+    border-radius: 10px;
+}
+.abc>button{
+    color: white;
+    background-color: #E74949;
+}
+#sticker{
+    height:40px;
+    margin-right:10px;
+}
+#sticker-type{
+    margin-right: 18px;
+    margin-left: 7px;
+}
